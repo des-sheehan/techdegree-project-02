@@ -1,0 +1,147 @@
+/*Find the headings for each section of this css file and paste them in to organise.*/
+
+/*
+TO DO:
+
+Footer Nav neads to be done
+
+*/
+
+
+/*
+UNIVERSAL RULES
+*/
+
+* {
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    border: 0;
+    padding: 20px 20px;
+/*    background-color: whitesmoke;*/
+    background-color: grey;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+}
+
+h1 {
+    font-weight: 600 bold;
+    margin-bottom: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+    text-transform: uppercase; 
+    padding: 1.25em 0;  
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+p {
+    line-height: 1.4;
+}
+
+nav li {
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 5px;
+}
+
+nav ul {
+    padding: 0;
+}
+
+
+nav img {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    width: 75%;
+    height:auto;
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto%;  
+}
+
+footer {
+/*    background-color: whitesmoke;*/
+    background-color: grey;
+}
+
+
+/*CLASS SELECTORS*/
+
+
+.container {
+    margin: 5em 1em;
+    text-align: center;         
+    }    
+    
+.container img {
+    margin-top: 1em;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 1em 0.5em;
+}
+
+.contact {
+    padding: 2.5em 0;
+}
+
+.nav-header li {   
+    background-color: white;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 5px;
+}
+
+.nav-footer {
+    text-align: justify;
+    width: 100%;
+    padding: 1em 0;
+    margin: 0 10px;
+}
+
+.nav-footer ul {
+    width: 100%;
+}   
+
+.nav-footer li:last-child {
+    float:right;  
+}
+
+.nav-footer li {
+    display: inline-block;
+}
+
+/*Entire page except footer wrapped*/
+.wrap {
+    min-height: calc(100vh - 22px);
+}
+
+}
