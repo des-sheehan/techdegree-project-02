@@ -4,7 +4,6 @@ UNIVERSAL RULES
 */
 
 * {
-
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -21,19 +20,26 @@ html, body {
 /*   --- COLOR ---   */
 
 
-html,
-.skills img {
-    border: 5px solid #eff6ee;
+html {
     background-color: #eff6ee;
 }
-main,
-.nav-header li, {   
+
+.skills img {
+    background-color: #eff6ee;
+    border: 5px solid #eff6ee;
+}
+
+main, 
+.nav-header li {   
     background-color: #9197ae;
 }
 
 nav img {
     border: 0.5em solid #9197ae;
 }
+
+
+/*----------Type Selectors----------*/
 
 
 body {
@@ -115,16 +121,17 @@ footer {
 }
 
 footer h2 {
+    padding-top: 0;
     float: left;
 }
 
 
+/*
 
-/*CLASS SELECTORS*/
+----------Class Slectors----------
 
-   
-    
-}
+*/
+
 .container {
     text-align: center; 
     padding-bottom: 2em;
@@ -137,9 +144,7 @@ footer h2 {
 
 
 /*
-
-----------SKILLS SECTION----------
-
+SKILLS SECTION
 */
 
 
@@ -159,13 +164,12 @@ footer h2 {
 .skills img {
     border-radius: 50%;
     width: 75%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 
 /*
-
-----------FOOTER----------
-
+FOOTER
 */
 
 
@@ -208,7 +212,10 @@ footer h2 {
     display: none;
 }
 
-/*MEDIA QUERIES*/
+
+/*
+----------MEDIA QUERIES----------
+*/
 
 
 @media screen and (min-width:768px) {
@@ -268,6 +275,7 @@ footer h2 {
         display: inline-block;
     }
 
+    
 @media screen and (min-width:1024px) {
     h1 {
         float:left;
@@ -278,8 +286,10 @@ footer h2 {
      section {
         max-width: 30%;
     }
-    
-/*    Correct Order of Skills     */
+}
+/*
+Correct Order of Skills
+*/
     
     .skills .item-1 {
         order: -3;
@@ -292,6 +302,4 @@ footer h2 {
     .skills .item-5 {
         order: -1;
     }
-}
-    
-    
+}   
