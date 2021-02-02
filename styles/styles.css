@@ -76,7 +76,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.3em;
+    font-size: 1.1em;
     text-transform: uppercase; 
     padding: 15px
 }
@@ -116,12 +116,12 @@ img {
 }
 
 footer {
-    width: 100%;
-    padding: 20px;
+    display: block;
 }
 
 footer h2 {
     padding-top: 0;
+    margin-top: 0;
     float: left;
 }
 
@@ -201,11 +201,11 @@ FOOTER
 }
 
 .nav-footer li {
-    margin-right: 20px;
+    padding-right: 15px;
 }
 
 .top, .nav-footer li:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .full {
@@ -273,8 +273,7 @@ FOOTER
     
     .full {
         display: inline-block;
-    }
-
+    }    
     
 @media screen and (min-width:1024px) {
     h1 {
